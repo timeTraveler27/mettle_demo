@@ -4,12 +4,20 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * <h1>Duplicate Finder</h1>
+ * Returns the first duplicate number in a list
+ * @author  Julius Eke
+ * @since   02-08-2023
+ */
 public class DuplicateFinder {
     private static final String EMPTY_LIST_MSG = "The list is empty, some values are required";
     private static final String NO_DUP_MSG = "There are no duplicates";
 
-    /*
-     *@params: numbers
+    /**
+     * @param numbers list of integers
+     * @return String returns a string of the 1st duplicate or a message
+     * @throws NullPointerException
      */
     public String findDuplicate(List<Integer> numbers) {
         try {
