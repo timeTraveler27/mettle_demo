@@ -12,21 +12,21 @@ Julius Eke
 * [Git Repo For Project](https://github.com/timeTraveler27/mettle_demo.git)
 
 ### Useful Installs
-Not necessary but nice to have
+You will need to have these installed on your machine to run the build
 
 To install a JDK got to
 * [JDK download](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-* (can be confirmed by entering `java -version` in the terminal)
+* (can be confirmed by running `java -version` in the terminal)
 
 To install Maven
 * [Maven installation instructions](https://maven.apache.org/install.html)
-* (can be confirmed by entering `mvn -v` in the terminal) 
+* (can be confirmed by running `mvn -v` in the terminal) 
 
 ### Build And Run
 * Clone project from the repo above
 * Navigate to the root folder of the project from your terminal 
-* Enter `mvn clean istall` to build the application
-* Enter `mvn clean test` to just run all tests
+* Run `mvn clean istall` to build the application
+* Run `mvn clean test` to just run all tests
 
 ### Assumptions 
 * I assume I don't need to check for invalid list type (e.g. String list) since there's no user entry component
